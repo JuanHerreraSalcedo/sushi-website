@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive sushi website - Bedimcode</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/logo.png" alt="logo">
+                Sushi
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Inicio" class="nav__list">Inicio</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Acerca" class="nav__list">Acerca de nosotros</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Popular" class="nav__list">Popular</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Reciente" class="nav__list">Reciente</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="./assets/img/leaf-branch-4.png" alt="" class="nav__img-1">
+                <img src="./assets/img/leaf-branch-3.png" alt="" class="nav__img-2">
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="Inicio">
+            <div class="home__container container grid">
+                <img src="./assets/img/home-sushi-rolls.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Disfruta de deliciosos
+
+                        <div>
+                            <img src="./assets/img/home-sushi-title.png" alt="">
+                            Sushi
+                        </div>
+                    </h1>
+
+                    <p class="home__description">
+                        Disfruta de una buena cena con los mejores platos en el restaurante y mejorara tu día.
+                    </p>
+
+                    <a href="#" class="button">
+                        Ordena ahora <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <img src="./assets/img/leaf-branch-2.png" alt="" class="home__leaf-1">
+            <img src="./assets/img/leaf-branch-4.png" alt="" class="home__leaf-2">
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="acerca section" id="Acerca">
+            <div class="acerca__contianer container grid">
+                <div class="acerca__data">
+                    <span class="section__subtitle">Acerca de nosotros</span>
+                    <h2 class="section__title acerca__title">
+                        <div>
+                            Nosotros proporcionamos
+                            <img src="./assets/img/about-sushi-title.png" alt="">
+                        </div>
+                        Comida saludable
+                    </h2>
+
+                    <p class="acerca__description">
+                        La comida viene de nuestros parientes, ya sean alas o raíces. Así es como consideramos la
+                        comida, también tiene una cultura. Tiene una historia que pasa de generación en generación
+                    </p>
+                </div>
+
+                <img src="./assets/img/about-sushi.png" alt="" class="acerca__img">
+            </div>
+
+            <img src="./assets/img/leaf-branch-1.png" alt="" class="acerca__leaf">
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="Popular">
+            <span class="section__subtitle">La Mejor Comida</span>
+            <h2 class="section__title">Platos Populares</h2>
+
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="./assets/img/popular-onigiri.png" alt="" class="popular__img">
+
+                    <h3 class="popular__name">Onigiri</h3>
+                        <span class="popular__description">Plato japones</span>
+
+                        <span class="popular__price">$10.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    
+                </article>
+
+                <article class="popular__card">
+                    <img src="./assets/img/popular-spring-rols.png" alt="" class="popular__img">
+
+                    <h3 class="popular__name">Spring Rolls</h3>
+                        <span class="popular__description">Plato japones</span>
+
+                        <span class="popular__price">15.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    
+                </article>
+
+                <article class="popular__card">
+                    <img src="./assets/img/popular-sushi-rolls.png" alt="" class="popular__img">
+
+                    <h3 class="popular__name">Sushi Rolls</h3>
+                        <span class="popular__description">Plato japones</span>
+
+                        <span class="popular__price">19.99</span>
+
+                        <button class="popular__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    
+                </article>
+            </div>
+        </section>
+
+        <!--==================== RECENTLY ====================-->
+        <section class="recently section" id="Reciente">
+
+        </section>
+
+        <!--==================== NEWSLETTER ====================-->
+        <section class="newsletter section">
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
